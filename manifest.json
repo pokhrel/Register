@@ -4,12 +4,12 @@
     "manifestVersion": "1.21",
     "version": "1.0.0",
     "name": {
-        "short": "Hello world",
-        "full": "Hello world"
+        "short": "Register",
+        "full": "Register"
     },
     "description": {
-        "short": "A simple Hello World Office Add-in.",
-        "full": "A simple Hello World Office Add-in."
+        "short": "Register a visitor.",
+        "full": "Register a visitor."
     },
     "developer": {
         "name": "Contoso",
@@ -36,7 +36,7 @@
         }
     },
     "validDomains": [
-        "https://localhost:3000"
+        "https://pokhrel.github.io"
     ],
     "extensions": [
         {
@@ -87,7 +87,7 @@
                             "groups": [
                                 {
                                     "id": "msgComposeGroup",
-                                    "label": "Contoso Add-in",
+                                    "label": "Madila Add-in",
                                     "icons": [
                                         {
                                             "size": 16,
@@ -106,7 +106,7 @@
                                         {
                                             "id": "msgComposeOpenPaneButton",
                                             "type": "button",
-                                            "label": "Hello world",
+                                            "label": "Register",
                                             "icons": [
                                                 {
                                                     "size": 16,
@@ -122,8 +122,8 @@
                                                 }
                                             ],
                                             "supertip": {
-                                                "title": "Hello world",
-                                                "description": "Open the Hello world add-in"
+                                                "title": "Register",
+                                                "description": "Register a visitor."
                                             },
                                             "actionId": "TaskPaneRuntimeShow"
                                         }
